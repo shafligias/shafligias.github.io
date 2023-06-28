@@ -1,0 +1,248 @@
+*,
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* welcome */
+.background {
+    background-image: url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 45%;
+    transform: scale(0.8);
+}
+/* welcome end */
+
+/* navbar */
+
+/* ul {
+    text-align: right;
+} */
+
+/* .container-navbar {
+    display: flex;
+    align-items: center;
+} */
+
+.container-navbar {
+    position: sticky;
+    top: 0px;
+}
+
+ul {
+    background-color: black;
+    /* text-align: right; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.li {
+    padding: 19px;
+}
+
+li {
+    color: white;
+    /* background-color: aqua; */
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-right: 10px; */
+    font-size: 1em;
+    text-decoration: none;
+    transition: 1s;
+}
+
+li:hover {
+    background-color: rgb(58, 53, 53);
+}
+
+li:focus {
+    background-color: black;
+}
+
+.navbar-img {
+    height: 50px;
+    padding: 3px;
+    display: block;
+    margin: 0 0;
+    /* background-color: aqua; */
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-img {
+        display: none;
+    }
+    ul {
+        text-align: center;
+    }
+}
+
+/* navbar end */
+
+/* about me */
+
+
+.container-aboutme2, .container-aboutme3 {
+    display: inline-block;
+}
+
+.text-aboutme {
+    width: 80%;
+    max-width: 29em;
+    font-size: 1.2em;
+    text-align: justify;
+    margin: 1em auto;
+}
+
+.container-aboutme, .container-aboutme2, .container-aboutme3 {
+    text-align: center;
+}
+
+.icon-img {
+    max-width: 12em;
+}
+
+@media only screen and (min-width: 600px)
+{
+.container-aboutme2, .container-aboutme3 
+    { 
+        width: 49.5%;
+        vertical-align: top;
+    }
+}
+
+#aboutme {
+    padding: 60px;
+}
+
+/* about me end*/
+/* portofolio */
+
+.h1-portofolio {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portofolio-container {
+    text-align: center;
+}
+
+.portofolio-image {
+    max-width: 300px;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#portofolio {
+    width: 100%;
+}
+
+/* portofolio end */
+/* CONTACT ME */
+
+#contactme {
+    padding: 50px;
+}
+
+hr {
+    width: 400px;
+    display: inline-block;
+}
+
+.hr {
+    text-align: center;
+    font-weight: bold;
+}
+
+.h1-contactme {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+.form-contactme {
+    width: 80%;
+}
+
+.label {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+#email {
+    width: 100%;
+}
+
+#nama {
+    width: 100%;
+}
+
+#pesan {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(73, 163, 135);
+    border: none;
+    color: white;
+    font-size: 1em;
+    transition: .8s;
+}
+
+.button:hover {
+    background-color: rgb(50, 110, 91);
+}
+
+.liput {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+}
+
+/* CONTACT ME END */
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    background-color: black;
+    height: 50px;
+}
+
+footer {
+    color: white;
+    position: relative;
+    top: 35%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    max-width: 1800px;
+    width: 100%;
+  }
+
+/* FOOTER END */
